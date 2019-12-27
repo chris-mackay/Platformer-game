@@ -22,7 +22,7 @@ void DrawText(renderer, text, font, color, x, y);
 
 
 #### Below is the `void` that will load in the level file and create all the platforms for collision detection. 
-#### Pressing the Enter key on the main keyboard (SDL_SCANCODE_RETURN) will cycle through all the level files in the directory.
+#### Pressing Enter on the main keyboard (SDL_SCANCODE_RETURN) will cycle through the level files in the directory.
 ```cpp    
 void LoadPlatforms(SDL_Renderer* ren)
 {
