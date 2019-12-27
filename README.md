@@ -1,27 +1,28 @@
 # Platformer-game
 2D platformer game written in `C++`. Meant to be a template/sandbox for experimenting. Not a complete game.
 
-### Utilizes [SDL 2.0 (Simple Directmedia Layer)](https://www.libsdl.org/)
+#### Utilizes [SDL 2.0 (Simple Directmedia Layer)](https://www.libsdl.org/)
 
 ![Game](game.png?raw=true "Game")
 
-### Draw text on the screen with `DrawText()`
+#### Draw text on the screen with `DrawText()`
 
 ```cpp
 void DrawText(renderer, text, font, color, x, y);
 ```
 
 
-### Levels are created with [Tiled](https://www.mapeditor.org/) (See image below).
+#### Levels are created with [Tiled](https://www.mapeditor.org/) (See image below).
 
 ![Level1](levels/level1.png?raw=true "Level1")
 
-### Export levels as `CSV files (*.csv)` and save next to source code files.
+#### Export levels as `CSV files (*.csv)` and save next to source code files.
 
 ![Export](export.png?raw=true "Export")
 
 
-### Below is the `void` that will load in the level file and create all the platforms for collision detection.
+#### Below is the `void` that will load in the level file and create all the platforms for collision detection. 
+#### Pressing the Enter key on the main keyboard (SDL_SCANCODE_RETURN) will cycle through all the level files in the directory.
 ```cpp    
 void LoadPlatforms(SDL_Renderer* ren)
 {
