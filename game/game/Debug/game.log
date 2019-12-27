@@ -1,0 +1,7 @@
+﻿  Game.cpp
+C:\Programming\Platformer game\game\game\Game.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Programming\Platformer game\game\game\Game.cpp(201,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Programming\Platformer game\game\game\Game.cpp(212,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Programming\Platformer game\game\game\Game.cpp(227,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Programming\Platformer game\game\game\Game.cpp(242,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  game.vcxproj -> C:\Programming\Platformer game\game\Debug\game.exe
